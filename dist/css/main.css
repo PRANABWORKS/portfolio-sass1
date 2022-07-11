@@ -19,6 +19,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
+  transition: all 0.5s ease-in-out;
 }
 .home__name:hover {
   color: #272727;
@@ -26,6 +27,7 @@
 .home__name--last {
   color: #ff652f;
   font-weight: 700;
+  transition: all 0.5s ease-in-out;
 }
 .home__name--last:hover {
   color: #272727;
@@ -287,6 +289,11 @@
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.contact h2:hover {
+  color: #ff652f;
 }
 .contact__list {
   display: grid;
@@ -299,6 +306,7 @@
   margin-top: 2rem;
 }
 .contact footer {
+  color: #fff;
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 

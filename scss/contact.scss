@@ -17,6 +17,12 @@
   h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
+    color: set-text-color($primary-color);
+    @include transition-ease;
+
+    &:hover{
+      color: $secondary-color;
+    }
   }
 
   &__list {
